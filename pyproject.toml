@@ -1,0 +1,20 @@
+[project]
+name = "video-assignment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AKINGBOHUNGBE", email = "olufisayoaking972@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "lab>=8.10",
+]
+
+[project.scripts]
+video-assignment = "video_assignment:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
